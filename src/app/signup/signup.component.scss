@@ -1,0 +1,55 @@
+.signup-box{
+    background-image:url('../../assets/images/backgroung.svg') ;
+    width: 100%;
+    height: 89vh;
+    color: #fff;
+    display: flex;
+    .content{
+        width: 25%;
+        margin: 0 auto;
+        margin-top: 9%;
+        text-align-last: justify;
+        height: 45%;
+        background-color: royalblue;
+        h2{
+            text-align-last: center;
+            color: lightgreen;
+            margin-top: 5%;
+        }
+        .content-row{
+            padding: 4%;
+            label{
+                font-weight: bold;
+            }
+        }
+        .content-align{
+            margin-top: 5%;
+        }
+    }
+    .button{
+        width: 22%;
+        margin-left: 40%;
+        padding: 5px;
+        margin-top: 5%;
+        text-align-last: center;
+    }
+}
+.nav{
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    a{
+        text-align: right;
+    }
+    h3{
+        margin: 1px;
+    }
+    span{
+        align-self: center;
+    }
+    .text-danger{
+        color: red;
+    }
+}

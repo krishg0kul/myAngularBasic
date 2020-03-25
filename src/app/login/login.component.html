@@ -1,0 +1,25 @@
+<div class="nav">
+    <h3>Welcome <span class="text-danger">First Angular</span> Project</h3>
+    <span>
+        <a routerLink='/'>Home</a> || <a routerLink='/signup'>SignUp</a>
+    </span>
+</div>   
+<div class="login-box">
+    <!-- <form> -->
+    <div class="content">
+        <h2>Login</h2>
+        <div class="content-align">
+            <div class="content-row">
+                <label for="email">Email </label>
+                <input id="email" type="email" [(ngModel)]="user.email" required>
+            </div>
+            <div class="content-row">
+                <label for="password">Password </label>
+                <input id="password" type="password" [(ngModel)]="user.pass" required>
+            </div>
+            <button class="button" type="submit" (click)="onSubmit()">Login</button>
+        </div>
+    </div>  
+      <!-- </form> -->
+    </div>
+    
